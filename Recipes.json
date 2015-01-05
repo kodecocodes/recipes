@@ -565,25 +565,5 @@
     ],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
-  },
-  {
-  "name": "Fried Egg",
-  "ingredients": [
-    {
-      "quantity": "1",
-      "name": "egg",
-      "type": "Dairy"
-    }
-  ],
-  "steps": [
-    "Heat a pan.",
-    "Fry the egg."
-  ],
-  "timers": [
-    0,
-    0
-  ],
-  "imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Fried_eggs.jpg/320px-Fried_eggs.jpg",
-  "originalURL": "http://www.raywenderlich.com/store/watchkit-by-tutorials"
-}
+  }
 ]
