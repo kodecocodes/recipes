@@ -168,11 +168,6 @@
                 "type": "Misc"
             },
             {
-                "quantity": "4 tablespoons",
-                "name": "vegetable oil",
-                "type": "Baking"
-            },
-            {
                 "quantity": "1/4 cup",
                 "name": "pizza sauce",
                 "type": "Misc"
@@ -291,7 +286,7 @@
             "Chill in the fridge for at least 30 minutes.",
             "Heat oven to 220C/gas mark 7.",
             "Pour the oil into the holes of a 8-hole muffin tin.",
-            "Heat tin in the over for 5 minutes.",
+            "Heat tin in the oven for 5 minutes.",
             "Ladle the batter mix into the tin.",
             "Bake for 30 minutes until well browned and risen."
         ],
@@ -314,7 +309,7 @@
         "ingredients": [
             {
                 "quantity": "1 cup",
-                "name": "raisons",
+                "name": "raisins",
                 "type": "Produce"
             },
             {
@@ -374,8 +369,8 @@
             }
         ],
         "steps": [
-            "Simmer raisons and water over medium heat until raisons are plump, about 15 minutes.",
-            "Drain raisons, reserving the liquid.",
+            "Simmer raisins and water over medium heat until raisins are plump, about 15 minutes.",
+            "Drain raisins, reserving the liquid.",
             "Add enough water to reserved liquid to measure 1/2 cup.",
             "Heat oven to 400°.",
             "Mix thoroughly shortening, sugar, eggs and vanilla.",
