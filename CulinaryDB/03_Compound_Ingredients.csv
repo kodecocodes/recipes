@@ -1,0 +1,104 @@
+Compound Ingredient Name,Compound Ingredient Synonyms,entity_id,Contituent Ingredients,Category
+Garam Masala,garam masala,2000,"black pepper, mace, cinnamon, clove, cardamom, nutmeg",Spice
+Ginger Garlic Paste,ginger garlic paste,2001,"ginger, garlic",Spice
+Coriander Cumin Seed Powder,coriander cumin seed powder,2002,"coriander, cumin",Spice
+Chaat Masala,chaat masala,2003,"asafoetida, mango, black salt, cayenne, garlic, ginger, sesame seed, black mustard seed oil, turmeric, coriander, bay laurel, anise, fennel",Spice
+Sambar Powder,sambar powder,2004,"pigeon pea, coriander, chickpea, cumin, black pepper, cayenne, ginger, fenugreek, turmeric",Spice
+Chole Masala,chole masala,2005,"cayenne, garlic, ginger, roasted sesame seed, black mustard seed oil, turmeric, coriander bay laurel, anise, fennel",Spice
+Rasam Powder,rasam powder,2006,"cayenne, pigeon pea, cumin, coriander, black pepper, curry leaf",Spice
+Tandoori Masala,tandoori masala,2007,"garlic, ginger, clove, nutmeg, mace, cumin, coriander, fenugreek, cinnamon, cardamom, black pepper",Spice
+Curry Powder,curry powder,2008,"cardamom, cayenne, cinnamon, clove, coriander, cumin, fennel, fenugreek, mace, nutmeg, black pepper, poppy seed, sesame seed, saffron, tamarind, turmeric",Spice
+Panch Pharon Seed,panch pharon seed,2009,"fenugreek, nigella seed, cumin, black mustard seed oil",Spice
+Chicken Masala Powder,chicken masala powder,2010,"bay laurel, ginger, cinnamon, clove, black pepper, coriander, fennel, cayenne",Spice
+Goda Masala,goda masala,2011,"cardamom, cinnamon, clove, bay laurel, sesame seed, coriander, coconut, cassia, white pepper, black pepper",Spice
+Jal Jeera Powder,jal jeera powder,2012,"black salt, mango, cumin, citric acid, mint, black pepper, ginger, asafoetida",Spice
+Ginger Garlic Coriander Leaves,ginger garlic coriander leaf,2013,"ginger, garlic, coriander",Spice
+Pulao Masala,pulao masala,2014,"black pepper, white pepper, clove, cumin, cinnamon, cardamom, coriander",Spice
+Dabeli Masala,dabeli masala,2015,"cayenne, coriander, cinnamon, clove, cumin",Spice
+Cake Mix,cake mix,2016,"flour, wheat, sugar, baking powder, salt",Dish
+Half Half,half=half,2017,"milk, cream",Dairy
+Ale,ale,2018,"beer, hops-beer",Beverage Alcoholic
+Vermicelli,vermicelli,2019,"flour, wheat, water, salt",Dish
+Self Rising Flour,self rising flour,2020,"flour, salt, baking=powder",Cereal
+Mayonnaise,mayonnaise,2021,"oil, egg, lemon-juice",Dish
+Salt-Pepper,salt=pepper,2022,"salt, pepper",Additive
+Croissant,croissant,2023,"flour, wheat, butter, yeast",Dish
+Puff Pastry,puff pastry,2024,"flour, wheat, butter",Dish
+Green Chutney,green chutney,2025,"corriander, cumin, lemon-juice, cayenne",Spice
+Cajun Seasoning,cajun seasoning,2026,"salt, cayenne, garlic, oregano, paprika, thyme, pepper, onion",Spice
+Vegetable Broth,vegetable broth,2027,"onion, carrot, celery, shallot, sage, mushroom",Dish
+Tandoori Paste,tandoori paste,2028,"garlic, ginger, clove, nutmeg, mace, cumin, coriander, fenugreek, cinnamon, cardamom, black pepper, yogurt, lime=juice",Dish
+Mixed Vegetables,mixed vegetables,2029,"carrot, cauliflower, corn, pea, capsicum",Vegetable
+Salad Creme,salad creme,2030,"oil, egg, vinegar, water",Dish
+Worcestershite Sauce,worcestershire sauce,2031,"cider-vinegar, soy=sauce, water, sugar, ginger, mustard, onion, garlic, cinnamon, pepper-black",Dish
+Coleslaw,coleslaw,2032,"cabbage, vinegar, oil, salt, mayonnaise, egg, water",Dish
+Vegetable Stock,vegetable stock,2033,"onion, carrot, celery, thyme, bayleaf, pepper, tomato, garlic",Vegetable
+Mascarpone,mascarpone,2034,"cheese-cream, lemon-juice, vinegar",Dish
+Fettuccine,fettuccine,2035,"flour, wheat, eggs",Dish
+Italian Seasoning,italian style seasoning; italian herb seasoning; italian seasoning,2036,"basil, oregano, rosemary, thyme",Spice
+Ketchup,ketchup,2037,"ketchup, tomato, sugar, vinegar, salt, onion, allspice, coriander, clove, cumin, garlic, mustard",Dish
+Spinach Fettuccine,spinach fettuccine,2038,"spinach, flour, wheat, eggs",Dish
+Hoisin Sauce,hoisin sauce,2039,"soybean, cayenne, garlic",Dish
+Barbeque Sauce,barbeque sauce,2040,"vinegar, tomato, tomato-paste, tomato-puree, mayonnaise, liquid=smoke, onion, mustard, pepper, sugar",Dish
+Sponge Cake,sponge cake,2041,"flour, wheat, butter, sugar, egg, baking=powder",Dish
+Baking Mix,baking mix,2042,"flour, wheat, baking=powder, yeast, sugar, salt",Dish
+Hot Sauce,hot sauce,2043,"cayenne, salt, vinegar",Dish
+Dried Mixed Fruit,dried mixed fruit,2044,"raisin, apricot, date, currant, fig",Fruit
+Candied Mixed Fruit,candied mixed fruit,2045,"raisin, apricot, date, currant, fig, sugar",Fruit
+Gulkand,gulkand,2046,"rose, sugar",Dish
+Pancetta,pancetta,2047,"pork, pepper, salt",Dish
+Phyllo,phyllo,2048,"phyllo, flour, wheat",Cereal
+Pie Crust,pie=crust,2049,"pie=crust, flour, wheat",Cereal
+Prosciutto,prosciutto,2050,"ham, ham-cured",Meat
+Creole Seasoning,creole seasoning,2051,"onion, pepper, garlic, pepper-white, oregano, cayenne, basil, capsicum, thyme, salt",Spice
+Chinese Five Spice Powder,chinese five spice,2052,"cinnamon, anise-star, fennel, pepper, clove",Spice
+Old Bay Seasoning,old=bay seasoning,2053,"bay=laurel, celery, salt, mustard, pepper, ginger, capsicum, pepper-white, nutmeg, clove, allspice, cayenne, mace, cardamom, cinnamon",Spice
+Adobo Sauce,adobo sauce,2054,"cayenne, garlic, cider-vinegar, salt, sugar, cumin",Dish
+Cracker Crumb,cracker crumb; graham cracker,2055,"wheat, sugar, honey",Dish
+Flour,flour; atta,2056,"flour, wheat",Cereal
+Ranch Dressing,dressing-ranch,2057,"mayonnaise, garlic, cream, onion, chive, salt, parsley, pepper, dill",Spice
+Poultry Seasoning,poultry seasoning,2058,"sage, thyme, marjoram, rosemary, nutmeg, pepper",Spice
+Tahini,tahini,2059,"sesame, olive",Dish
+Herbe de Provence,herbe de provence,2060,"rosemary, lavendar, fennel, parsley, savory-winter, oregano, thyme, tarragon, basil, bay=laurel, marjoram",Spice
+Tart Shell,tart shell,2061,"flour, wheat, sugar, salt, butter, shortening, water",Dish
+Adobo,adobo,2062,"cayenne, garlic, cider-vinegar, salt, sugar, cumin, chicken, adobo",Dish
+Tomato Puree,tomato-puree,2063,"tomato, tomato-puree",Vegetable
+Tomato Paste,tomato-paste,2064,"tomato, tomato-paste",Vegetable
+Bear,bear,2065,"bear-black, bear-brown, bear-polar",Meat
+Whale,whale,2066,"whale-beluga, whale-bowhead",Fish
+Whitefish,whitefish,2067,"whitefish-broad, whitefish",Fish
+Seal,seal,2068,"seal, seal-ringed, seal-spotted, seal-bearded",Fish
+Tuna,tuna,2069,"tuna-albacore, tuna-bluefin, tuna-yellowfin, tuna",Fish
+Croaker,croaker,2070,"croaker-atlantic, croaker-spot",Fish
+Mackerel,mackerel,2071,"mackerel-atlantic, mackerel-pacific, mackerel-king, mackerel-spanish",Fish
+Pollock,pollock,2072,"pollock-atlantic, pollock-alaska, pollock",Fish
+Anchovy,anchovy,2073,"anchovy-european, anchovy",Fish
+Perch,perch,2074,"perch-pacific, perch-pike",Fish
+Frybread,fry=bread,2075,"frybread, flour, wheat",Dish
+Sturgeon,sturgeon,2076,"sturgeon-greater, sturgeon",Fish
+Hibiscus Tea,tea-hibiscus,2077,"tea-hibiscus, water, sugar",Dish
+Deer,deer; elk,2078,"mule deer, deer, elk, meat",Meat
+Octopus,octopus,2079,"octopus, octopus-pacific",Seafood
+Oat Bread,bread-oat,2080,"bread-oat, oat, bread",Bakery
+Pita Bread,bread-pita,2081,"bread-pita, bread",Bakery
+Raisin Bread,bread-raisin,2082,"bread-raisin, bread, raisin",Bakery
+Multigrain Bread,bread-multigrain,2083,"bread-multigrain, flax=seed, bread, oat",Bakery
+Cornbread,corn=bread,2084,"cornbread, corn, bread",Bakery
+Pout,pout,2085,"pout-ocean, pout-norway",Fish
+Herring,herring,2086,"herring-pacific, herring-atlantic",Fish
+Smelt,smelt,2087,"smelt-rainbow, smelt",Fish
+Crab,crab; crabmeat,2088,"crab, red king crab",Seafood
+Cooking Oil,cooking oil; vegetable oil,2089,"cooking oil, sunflower",Additive
+Rice Cake,rice-cake,2090,"rice-cake, rice, flour, wheat, ???vegetable-oil???",Bakery
+Trout,trout,2091,"trout-sea, trout-lake, trout-rainbow",Fish
+Lobster,lobster,2092,"lobster, lobster-spiny",Seafood
+Halibut,halibut,2093,"halibut-atlantic, halibut-greenland",Fish
+Whiting,whiting,2094,"whiting, whiting-blue",Fish
+Buffalo,buffalo,2095,"buffalo, meat",Meat
+Catfish,catfish,2096,"catfish-channel, catfish",Fish
+Salmon,salmon; arctic char; cisco; salmonidae,2097,"salmon-coho, salmon-atlantic, salmon-chinook, salmon-chun, salmon-pink, salmon-sockeye, salmon, salmonidae, cisco",Fish
+Rabbit,rabbit,2098,"rabbit, rabbit-european, meat",Meat
+Haddock,haddock,2099,"haddock, haddock-norway",Fish
+Persimmon,persimmon,2100,"persimmon,persimmon-common",Fruit
+Apple Sauce,apple=sauce,2101,"apple sauce, apple, lemon juice, sugar",Dish
+Cider Vinegar,soy cream; soya cream,2102,"soy cream, soy milk, cooking oil, agave, cider vinegar",Dish

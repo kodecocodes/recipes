@@ -1,0 +1,931 @@
+Aliased Ingredient Name,Ingredient Synonyms,Entity ID,Category
+Egg,egg,0,Meat
+Bread,bread; bun,2,Bakery
+Rye Bread,bread-rye,3,Bakery
+Wheaten Bread,bread-wheaten,4,Bakery
+White Bread,bread-white; baguette,5,Bakery
+Wholewheat Bread,bread-whole=wheat,6,Bakery
+Wort,wort,7,Beverage
+Arrack,arrack; arak,8,Beverage Alcoholic
+Beer,beer; lager,9,Beverage Alcoholic
+Bantu Beer,bantu-beer; kaffir-beer,10,Beverage Alcoholic
+Brandy,brandy,11,Beverage Alcoholic
+Anise Brandy,brandy-anise,12,Beverage Alcoholic
+Apple Brandy,brandy-apple,13,Beverage Alcoholic
+Armagnac Brandy,armagnac-brandy,14,Beverage Alcoholic
+Blackberry Brandy,blackberry-brandy,15,Beverage Alcoholic
+Cherry Brandy,brandy-cherry,16,Beverage Alcoholic
+Cognac Brandy,brandy-cognac,17,Beverage Alcoholic
+Papaya Brandy,brandy-papaya,18,Beverage Alcoholic
+Pear Brandy,brandy-pear; palinka; poire williams; rakia,19,Beverage Alcoholic
+Plum Brandy,brandy-plum; slivovitz; tuica; ljivovica; asliwowica; schlivowitz,20,Beverage Alcoholic
+Raspberry Brandy,raspberry-brandy,21,Beverage Alcoholic
+Weinbrand Brandy,weinbrand-brandy,22,Beverage Alcoholic
+Gin,gin,23,Beverage Alcoholic
+Rum,rum,24,Beverage Alcoholic
+Whisky,whisky; whiskey,25,Beverage Alcoholic
+Bourbon Whisky,bourbon-whisky; bourbon-whiskey,26,Beverage Alcoholic
+Canadian Whisky,canadian-whisky; canadian-whiskey,27,Beverage Alcoholic
+Finnish Whisky,finnish-whisky; finnish-whiskey,28,Beverage Alcoholic
+Japanese Whisky,japanese-whisky; japanese-whiskey,29,Beverage Alcoholic
+Malt Whisky,whisky-malt; whiskey-malt,30,Beverage Alcoholic
+Scotch,scotch,31,Beverage Alcoholic
+Wine,wine,32,Beverage Alcoholic
+Bilberry Wine,bilberry-wine,33,Beverage Alcoholic
+Botrytized Wine,botrytized-wine,34,Beverage Alcoholic
+Champagne,champagne,35,Beverage Alcoholic
+Cider,cider,36,Beverage Alcoholic
+Plum Wine,plum-wine,37,Beverage Alcoholic
+Port Wine,port-wine; vinho do porto,38,Beverage Alcoholic
+Red Wine,wine-red,39,Beverage Alcoholic
+Rose Wine,rose-wine; rosada,40,Beverage Alcoholic
+Sake,sake,41,Beverage Alcoholic
+Sherry,sherry,42,Beverage Alcoholic
+Sparkling Wine,sparkling-wine,43,Beverage Alcoholic
+Strawberry Wine,strawberry-wine,44,Beverage Alcoholic
+White Wine,wine-white,45,Beverage Alcoholic
+Coffee,coffee,46,Beverage
+Mate,mate; yerba,47,Beverage
+Black Tea,tea-black,48,Beverage
+Green Tea,tea-green,49,Beverage
+Roibos Tea,tea-rooibos; tea-bush,50,Beverage
+Barley,barley,51,Cereal
+Crispbread,crisp=bread,52,Cereal
+Malt,malt,53,Cereal
+Oats,oat,54,Cereal
+Rice,rice,55,Cereal
+Corn,corn; corn=flour; corn=starch; maize=flour,56,Maize
+Corn Oil,corn oil,57,Maize
+Popcorn,pop=corn,58,Maize
+Sweetcorn,sweet=corn,59,Maize
+Butter,butter,60,Dairy
+Buttermilk,buttermilk,61,Dairy
+Cheese,cheese,62,Dairy
+Blue Cheese,cheese-blue,63,Dairy
+Camembert Cheese,cheese-camembert,64,Dairy
+Cheddar Cheese,cheese-cheddar,65,Dairy
+Comte Cheese,cheese-comte,66,Dairy
+Cottage Cheese,cheese-cottage,67,Dairy
+Cream Cheese,cheese-cream,68,Dairy
+Domiati Cheese,cheese-white; cheese-domiati,69,Dairy
+Emmental Cheese,cheese-emmental,70,Dairy
+Feta Cheese,cheese-feta,71,Dairy
+Goat Cheese,cheese-goat,72,Dairy
+Gruyere Cheese,cheese-gruyere,73,Dairy
+Limburger Cheese,cheese-limburger,74,Dairy
+Mozzarella Cheese,cheese-mozzarella,75,Dairy
+Munster Cheese,cheese-munster,76,Dairy
+Parmesan Cheese,cheese-parmesan,78,Dairy
+Provolone Cheese,cheese-provolone,79,Dairy
+Romano Cheese,cheese-romano,80,Dairy
+Roquefort Cheese,cheese-roquefort,81,Dairy
+Russian Cheese,cheese-russia,82,Dairy
+Sheep Cheese,cheese-sheep,83,Dairy
+Swiss Cheese,cheese-swiss,84,Dairy
+Tilsit Cheese,cheese-tilsit,85,Dairy
+Ghee,ghee,87,Dairy
+Milk,milk,88,Dairy
+Milk Fat,milk-fat; cream,89,Dairy
+Goat Milk,goat-milk,90,Dairy
+Milk Powder,milk-powder,91,Dairy
+Sheep Milk,sheep-milk,92,Dairy
+Skimmed Milk,milk-skimmed,93,Dairy
+Yogurt,yogurt; curd; yoghurt,94,Dairy
+Achilleas,achillea,95,Essential Oil
+Arar,arar,96,Essential Oil
+Buchu,buchu,97,Essential Oil
+Cajeput,cajeput,98,Essential Oil
+Camphor,camphor,99,Essential Oil
+Cascarilla,cascarilla,100,Essential Oil
+Cedar,cedar,101,Essential Oil
+Chamomile,chamomile; camomile,102,Essential Oil
+Citronella Oil,citronella-oil,103,Essential Oil
+Citrus Peel Oil,citrus-peel=oil,104,Essential Oil
+Eucalyptus Oil,eucalyptus-oil,105,Essential Oil
+Fir,fir,106,Essential Oil
+Geranium,geranium,107,Essential Oil
+Grapefruit Peel Oil,grapefruit-peel=oil,108,Essential Oil
+Grass,grass,109,Essential Oil
+Hops Oil,hops-oil,110,Essential Oil
+Hyacinth,hyacinth,111,Essential Oil
+Hyssop Oil,hyssop-oil,112,Essential Oil
+Lemon Grass,lemon=grass,113,Essential Oil
+Lemon Peel Oil,lemon-peel=oil,114,Essential Oil
+Lime Peel Oil,lime-peel=oil,115,Essential Oil
+Lovage,lovage,116,Essential Oil
+Mandarin Orange Peel Oil,mandarin-peel=oil,117,Essential Oil
+Mastic Gum,mastic,118,Essential Oil
+Mentha Oil,mentha-oil,119,Essential Oil
+Myrrh,myrrh,120,Essential Oil
+Neroli Oil,neroli-oil,121,Essential Oil
+Orange Oil,orange-oil,122,Essential Oil
+Orris,orris,123,Essential Oil
+Clary Sage,clary-sage,124,Essential Oil
+Red Sage,sage-red; sage-wild,125,Essential Oil
+Spanish Sage,sage-spanish,126,Essential Oil
+Sandalwood,sandalwood,127,Essential Oil
+Sea Buckthorns,sea=buckthorn,128,Fruit
+Sweet Grass,sweet=grass,129,Essential Oil
+Valerian,valerian,130,Essential Oil
+Wattle,wattle,131,Essential Oil
+Yarrow,yarrow,132,Essential Oil
+Ylang-Ylang,ylang=ylang-oil,133,Essential Oil
+Clam,clam,134,Seafood
+Crab,#crab#,135,Seafood
+Crayfish,cray=fish,136,Seafood
+Kelp,kelp,137,Seafood
+Krill,krill,138,Seafood
+Lobster,#lobster#,139,Seafood
+Mollusc,mollusc; mussels,140,Seafood
+Oyster,oyster,141,Seafood
+Prawn,prawn,142,Seafood
+Scallop,scallop,143,Seafood
+Shellfish,shellfish,144,Seafood
+Shrimp,shrimp,145,Seafood
+Trassi,shrimp-paste=dried; trassi,146,Seafood
+Squid,squid,147,Seafood
+Bonito,bonito,148,Fish
+Caviar,caviar,149,Fish
+Codfish,codfish; cod,150,Fish
+Fish,fish; pomfret,151,Fish
+Fatty Fish,fish-fatty,152,Fish
+Lean Fish,fish-lean,153,Fish
+Fish Oil,fish-oil,154,Fish
+Smoked Fish,fish-smoked,155,Fish
+Salmon,#salmon#,156,Fish
+Artichoke,artichoke,157,Flower
+Champaca,champaca,158,Flower
+Jasmine,jasmine,159,Flower
+Lavendar,lavendar,160,Flower
+Rose,rose,161,Flower
+Apple,apple,162,Fruit
+Apple Sauce,#apple=sauce#,163,Fruit
+Apricot,apricot,164,Fruit
+Avocado,avocado,165,Fruit
+Babaco,babaco,166,Fruit
+Banana,banana,167,Fruit
+Beli,beli,168,Fruit
+Byrsonima crassifolia,byrsonima crassifolia; changunga; nanche; serette,169,Fruit
+Cashew Apple,cashew=apple,170,Fruit
+Cherimoya,cherimoya; custard apple,171,Fruit
+Coconut,coconut,172,Fruit
+Currant,currant,173,Fruit
+Black Currant,currant-black,174,Fruit
+Red Currant,currant-red,175,Fruit
+White Currant,currant-white,176,Fruit
+Dates,date,177,Fruit
+Durian,durian,178,Fruit
+Elderberry,elder=berry,179,Fruit
+Feijoa,feijoa,180,Fruit
+Fig,fig,181,Fruit
+Grape,grape; merlot,182,Fruit
+Guava,guava,183,Fruit
+Hogplum,hogplum,184,Fruit
+Jackfruit,jackfruit,185,Fruit
+Kiwifruit,kiwi; kiwifruit,186,Fruit
+Litchi,litchi; lychee; lichee,187,Fruit
+Loquat,loquat,188,Fruit
+Malay Apple,malay=apple,189,Fruit
+Mango,mango; amchoor; amchur,190,Fruit
+Melon,melon,191,Fruit
+Musk Melon,musk=melon; honeydew,192,Fruit
+Naranjilla,naranjilla,193,Fruit
+Orange,orange,194,Fruit
+Bitter Orange,orange-bitter; orange-sour,195,Fruit
+Papaya,papaya,196,Fruit
+Mountain Papaya,Papaya-mountain,197,Fruit
+Passionfruit,passionfruit,198,Fruit
+Yellow Passionfruit,passionfruit-yellow,199,Fruit
+Pawpaw,pawpaw,200,Fruit
+Peach,peach; nectarine,201,Fruit
+Pear,pear,202,Fruit
+Bartlett Pear,pear-barlett,203,Fruit
+Prickly Pear,pear-prickly,204,Fruit
+Pepino,pepino; cucumber-sweet,205,Fruit
+Pineapple,pineapple; ananas,206,Fruit
+Plum,plum; prune,207,Fruit
+Plumcot,plumcot; aprium,208,Fruit
+Pumpkin,pumpkin,209,Fruit
+Quince,quince,210,Fruit
+Chinese Quince,quince-chinese,211,Fruit
+Raisin,raisin; sultana,212,Fruit
+Roseapple,rose=apple; java=apple,213,Fruit
+Sapodilla,sapodilla,214,Fruit
+Soursop,soursop,215,Fruit
+Spineless Monkey Orange,spineless=monkey=orange,216,Fruit
+Starfruit,starfruit; carambola,217,Fruit
+Tamarind,tamarind,218,Fruit
+Woodapple,woodapple,219,Fruit
+Bilberry,bilberry,221,Fruit
+Blackberry,blackberry,222,Fruit
+Blueberry,blueberry,223,Fruit
+Cherry,cherry,224,Fruit
+Bitter Cherry,cherry-choke; cherry-bitter,225,Fruit
+Sour Cherry,cherry-morello; cherry-sour,226,Fruit
+Sweet Cherry,cherry-sweet; cherry-wild,227,Fruit
+Cloudberry,cloudberry,228,Fruit
+Cranberry,cranberry,229,Fruit
+Gooseberry,gooseberry,230,Fruit
+Lingonberry,lingonberry,231,Fruit
+Loganberry,loganberry,232,Fruit
+Raspberry,raspberry,233,Fruit
+Strawberry,strawberry,234,Fruit
+Strawberry Jam,strawberry-jam,235,Fruit
+Bergamot,bergamot,236,Fruit
+Citrus Fruits,citrus,237,Fruit
+Grapefruit,grapefruit,238,Fruit
+Kumquat,kumquat,239,Fruit
+Lemon,lemon,240,Fruit
+Lime,lime,241,Fruit
+Mandarin Orange,mandarin,242,Fruit
+Satsuma Orange,mandarin-satsuma,243,Fruit
+Tangerine,tangerine,244,Fruit
+Vanilla,vanilla,245,Fruit
+Mushroom,mushroom; porcini,246,Fungus
+Truffle,truffle,247,Fungus
+Angelica,angelica,248,Herb
+Artemisia,artemisia,249,Herb
+Basil,basil,250,Herb
+Buckwheat,buckwheat,251,Herb
+Calamus,calamus,252,Herb
+Chervil,chervil,253,Herb
+Coriander,coriander; cilantro,254,Herb
+Cornmint,cornmint,255,Herb
+Dill,dill,256,Herb
+Fennel,fennel,257,Herb
+Fenugreek,fenugreek; methi,258,Herb
+Garlic,garlic,259,Herb
+Lemon Balm,lemon=balm,260,Herb
+Liqourice,liquorice,261,Herb
+Mint,mint,262,Herb
+Rhubarb,rhubarb,263,Herb
+Rosemary,rosemary,264,Herb
+Sage,sage,265,Herb
+Spearmint,spearmint-oil,266,Herb
+Scotch Spearmint,spearmint-scotch,267,Herb
+Tarragon,tarragon,268,Herb
+Thyme,thyme,269,Herb
+Beef,beef; steak; veal; sirloin,270,Meat
+Beef Processed,beef-processed,271,Meat
+Chicken,chicken,272,Meat
+Frankfurter Sausage,frankfurter-sausage,273,Dish
+Ham,ham,274,Meat
+Lamb,lamb; keema,275,Meat
+Meat,meat,276,Meat
+Mutton,mutton,277,Meat
+Pork,pork; pig; bacon,278,Meat
+Sukiyaki,sukiyaki,279,Meat
+Turkey,turkey,280,Meat
+Almond,almond,281,Nuts & Seed
+Brazil Nut,brazil=nut,282,Nuts & Seed
+Cocoa,cocoa,283,Nuts & Seed
+Beans,bean,284,Legume
+Lima Beans,bean-lima; bean-sieve; butter-bean,285,Legume
+Kidney Beans,bean-kidney; bean-red; bean-red=kidney; rajma,286,Legume
+Peanut,peanut,287,Nuts & Seed
+Peas,pea,288,Legume
+Soybean,soy=bean; soya=bean,289,Legume
+Soybean Oil,soy=bean-oil; soya=bean-oil,290,Legume
+Soybean Sauce,soy=bean-sauce; soya=bean-sauce; soy-sauce; soya-sauce,291,Plant
+Filbert,filbert,292,Nuts & Seed
+Hazelnut,hazel=nut,293,Nuts & Seed
+Macadamia Nut,macadamia=nut; bush=nut; hawaii=nut,294,Nuts & Seed
+Pecans,pecan,296,Nuts & Seed
+Walnut,walnut,297,Nuts & Seed
+Muskmallow,musk=mallow,298,Nuts & Seed
+Sesame,sesame,299,Nuts & Seed
+Allium,allium,300,Plant
+Alpinia,alpinia,301,Plant
+Ceriman,ceriman,302,Plant
+Chicory,chicory,303,Plant
+Hops,hops,304,Plant
+Laurel,bay=laurel; bay=leaf,305,Plant
+Myrtle,myrtle,306,Plant
+Olive,olive,307,Plant
+Pine,pine,308,Plant
+Sassafras,sassafras,309,Plant
+Tea,tea,310,Plant
+Fermented Tea,tea-fermented,311,Plant
+Tobacco,tobacco,312,Plant
+Watercress,watercress,313,Plant
+Creosote,creosote,314,Plant
+Honey,honey,315,Plant
+Macaroni,macaroni,316,Plant
+Mustard Oil,mustard-oil,317,Plant
+Peanut Butter,peanut=butter,318,Plant
+Peanut Oil,peanut-oil,319,Plant
+Rye,rye,320,Cereal
+Storax,storax,321,Plant
+Vinegar,vinegar,322,Plant
+Anise,anise; saunf,323,Spice
+Anise Hyssop,anise-hyssop,324,Spice
+Star Anise,anise-star,325,Spice
+Caraway,caraway,326,Spice
+Cardamom,cardamom; cardamon,327,Spice
+Cassia,cassia,328,Spice
+Celery,celery,329,Spice
+Cinnamon,cinnamon,330,Spice
+Clove,clove,331,Spice
+Cumin,cumin; jeera,332,Spice
+Ginger,ginger,333,Spice
+Mace,mace,334,Spice
+Marjoram,marjoram,335,Spice
+Nutmeg,nutmeg,336,Spice
+Oregano,oregano,337,Spice
+Parsley,parsley,338,Spice
+Pepper,pepper; kaali=mirch,339,Spice
+Saffron,saffron,340,Spice
+Turmeric,turmeric; tumeric,341,Spice
+Green Beans,bean-green; bean-field; bean-flageolet; bean-french; bean-garden; bean-haricot; bean-string; bean-snap,342,Vegetable
+Chive,chive,343,Vegetable
+Endive,endive,344,Vegetable
+Leek,leek,345,Vegetable
+Lettuce,lettuce,346,Vegetable
+Okra,okra; bhindi; lady=finger,347,Vegetable
+Onion,onion,348,Vegetable
+Shallot,shallot,349,Vegetable
+Peppermint,peppermint,350,Herb
+Broccoli,broccoli; broccolini,351,Vegetable
+Brussels Sprout,brussels=sprout,352,Vegetable
+Cabbage,cabbage,353,Vegetable
+Cauliflower,cauliflower,354,Vegetable
+Horseradish,horseradish,355,Vegetable
+Mustard,mustard,356,Vegetable
+Radish,radish; daikon; mooli,357,Vegetable
+Turnip,turnip,358,Vegetable
+Kohlrabi,kohlrabi,359,Vegetable
+Rutabaga,rutabaga,360,Vegetable
+Wasabi,wasabi,361,Vegetable
+Capsicum,capsicum; paprika; pepper-bell; pepper-sweet,362,Vegetable
+Cherry Pepper,pimiento; cherry=pepper,363,Vegetable
+Tomato,tomato,364,Vegetable
+Chayote,chayote,365,Vegetable
+Cucumber,cucumber,366,Vegetable
+Beetroot,beetroot; beet,367,Vegetable
+Carrot,carrot,368,Vegetable
+Parsnip,parsnip,369,Vegetable
+Sweet Potato,potato-sweet,370,Vegetable
+Asparagus,asparagus,371,Vegetable
+Cassava,cassava,372,Vegetable
+Potato,potato,373,Vegetable
+Fried Potato,potato-fried,374,Bakery
+Allspice,allspice; pimenta; myrtle=pepper,375,Spice
+Asafoetida,asafoetida; asafetida; hing; asant,376,Spice
+Ashgourd,ash=gourd; white=gourd,377,Vegetable
+Bittergourd,bitter=gourd; squash-bitter,378,Vegetable
+Bottlegourd,bottle=gourd,379,Vegetable
+Canola Oil,canola-oil,380,Essential Oil
+Carom Seed,carom seed; ajwain,381,Spice
+Chard,chard,382,Vegetable
+Apple Cider Vinegar,vinegar-cider; cider=vinegar,383,Plant
+Colocasia,colocasia,384,Vegetable
+Curry Leaf,curry=leaf,385,Herb
+Drumstick Leaf,drumstick-leaf,386,Vegetable
+Eggplant,eggplant; aubergine; brinjal,387,Vegetable
+Flaxseed,flax=seed,388,Nuts & Seed
+Jalapeno,jalapeno,389,Spice
+Kenaf,kenaf,390,Essential Oil
+Lotus,lotus,391,Essential Oil
+Nigella Seed,nigella-seed; kalonji,392,Nuts & Seed
+Kewda,kewda; kewra,393,Essential Oil
+Pomegranate,pomegranate; anaardana,394,Fruit
+Poppy Seed,poppy=seed,395,Spice
+Spinach,spinach; palak,396,Vegetable
+Turkey Berry,turkey=berry,397,Vegetable
+Water Chestnut,water=chestnut; water=caltrop,398,Fruit
+White Pepper,pepper-white,399,Spice
+Garcinia Indica,kokum; garnicia=indica,400,Fruit
+Cluster Bean,bean-cluster; bean-guar,401,Legume
+Paneer,paneer,402,Dairy
+Pigeon Pea,pea-pigeon; arhar; pea-no=eye; dal-toor; red=gram,403,Legume
+Basmati Rice,basmati,404,Cereal
+Ricotta Cheese,cheese-ricotta,405,Dairy
+Silver linden,linden-silver,408,Herb
+Redskin onion,onion-red=skin; onion-red,409,Vegetable
+Lemon verbena,verbena-lemon,410,Herb
+Cashew nut,cashew; cashew=nut,411,Nuts & Seed
+Burdock,burdock,412,Vegetable
+Borage,borage,413,Herb
+Capers,caper,414,Herb
+Safflower,saf=flower,415,Herb
+Chestnut,chestnut,416,Nuts & Seed
+Chickpea,pea-chick; besan; chickpea; kabuli chana; kala chana; garbanzo,417,Legume
+Pummelo,pummelo,418,Fruit
+Arabica coffee,coffee-arabica,419,Beverage
+Japanese persimmon,persimmon-japanese,421,Fruit
+Black crowberry,crowberry-black,422,Fruit
+Rocket salad,salad-rocket,423,Herb
+Tartary buckwheat,buckwheat-tartary,424,Cereal
+Black huckleberry,huckleberry-black,425,Fruit
+Sunflower,sunflower,426,Flower
+Swamp cabbage,cabbage-swamp,427,Vegetable
+Grass pea,pea-grass,428,Legume
+Lentils,lentil,429,Legume
+Garden cress,cress,430,Herb
+Mexican oregano,oregano-mexican,431,Herb
+Lupine,lupine,432,Plant
+Medlar,medlar,433,Fruit
+Mulberry,mulberry,434,Fruit
+Black mulberry,mulberry-black,435,Fruit
+Evening primrose,primrose,436,Herb
+Millet,millet,437,Legume
+Scarlet bean,bean-scarlet,438,Legume
+Pistachio,pistachio,439,Nuts & Seed
+Purslane,purslane,440,Plant
+Red raspberry,raspberry-red,441,Fruit
+Black raspberry,raspberry-black,442,Fruit
+Sorrel,sorrel,443,Herb
+Summer savory,savory-summer,444,Herb
+Winter savory,savory-winter,445,Herb
+Cherry tomato,cherry=tomato,446,Fruit
+Rowanberry,rowan=berry,447,Fruit
+Sorghum,sorghum,448,Cereal
+Dandelion,dandelion,449,Flower
+Linden,linden,450,Herb
+Small leaf linden,linden-leaf,451,Plant
+Wheat,wheat,452,Cereal
+Sparkleberry,sparkleberry,453,Fruit
+Common verbena,vverbena; vervain,454,Herb
+Adzuki bean,bean-adzuki,455,Legume
+Gram bean,bean-gram,456,Legume
+Mung bean,bean-mung; bean-moong,457,Legume
+Climbing bean,bean-climbing,458,Legume
+Muscadine grape,grape-muscadine,459,Fruit
+Bayberry,bayberry,460,Fruit
+Elliott's blueberry,blueberry-elliot,461,Fruit
+Canada blueberry,blueberry-canada,462,Fruit
+Buffalo currant,currant-buffalo,463,Fruit
+Deerberry,deer=berry,464,Fruit
+Ginseng,ginseng,465,Vegetable
+Longan,longan,466,Plant
+Rambutan,rambutan,469,Fruit
+Red rice,rice-red,470,Cereal
+Welsh onion,onion-welsh; onion-spring; scallion,472,Vegetable
+Hard wheat,wheat-hard; spaghetti,473,Cereal
+Triticale,triticale,474,Cereal
+Komatsuna,komatsuna,475,Vegetable
+Pak choy,pak=choy; pak=choi,476,Vegetable
+Jostaberry,jostaberry,477,Fruit
+Kai lan,kai=lan,478,Vegetable
+Pineappple sage,pineappple-sage,480,Herb
+Skunk currant,currant-skunk,481,Fruit
+Breakfast cereal,cereal,482,Cereal
+Pasta,pasta,484,Bakery
+Biscuit,biscuit,485,Bakery
+Sourdough,sourdough,486,Cereal
+Spirit,spirit,487,Beverage Alcoholic
+Abalone,abalone,489,Fungus
+Abiyuch,abiyuch,490,Plant
+Acerola,acerola,491,Fruit
+Acorn,acorn,492,Nuts & Seed
+Winter squash,squash-winter; squash-yellow,493,Fruit
+Agar,agar,494,Additive
+Red king crab,#crab-red=king#,495,Seafood
+Alfalfa,alfalfa,496,Herb
+Amaranth,amaranth,497,Herb
+Arrowhead,arrowhead,498,Vegetable
+Arrowroot,arrowroot,499,Vegetable
+Atlantic herring,#herring-atlantic#,500,Fish
+Atlantic mackerel,#mackerel-atlantic#,501,Fish
+Painted comber,comber,502,Fish
+Atlantic pollock,#pollock-atlantic#,503,Fish
+Atlantic wolffish,wolffish,504,Fish
+Bamboo shoots,bamboo-shoot,505,Plant
+Striped bass,bass,506,Fish
+Beaver,beaver,507,Meat
+Beech nut,nut-beech,508,Nuts & Seed
+Beluga whale,#whale-beluga#,509,Fish
+Bison,bison,510,Meat
+Black bear,#bear-black#,511,Meat
+Alaska blackfish,blackfish,512,Fish
+Northern bluefin tuna,#tuna-bluefin#,513,Fish
+Bluefish,bluefish,514,Fish
+Wild boar,boar,515,Meat
+Bowhead whale,#whale-bowhead#,516,Fish
+Breadfruit,breadfruit,517,Fruit
+Rapini,rapini,519,Vegetable
+Brown bear,#bear-brown#,520,Meat
+Buffalo,#buffalo#,521,Meat
+Burbot,burbot,522,Fish
+Giant butterbur,butterbur,523,Plant
+American butterfish,butterfish,524,Fish
+Butternut,butternut,525,Nuts & Seed
+Butternut squash,butternut-squash; butternut-pumpkin,526,Fruit
+Cardoon,cardoon,527,Plant
+Caribou,caribou,528,Meat
+Natal plum,plum-natal,529,Fruit
+Carob,carob,530,Plant
+Common carp,carp,531,Fish
+Channel catfish,#catfish-channel#,532,Fish
+Chia,chia,533,Herb
+Chinese chestnut,chestnut-chinese,534,Nuts & Seed
+Garland chrysanthemum,garland=chrysanthemum,535,Flower
+Cisco,#cisco#,536,Fish
+Nuttall cockle,nuttall=cockle,537,Fish
+Common octopus,#octopus#,538,Seafood
+Corn salad,salad-corn,539,Vegetable
+Cottonseed,cotton=seed,540,Plant
+Catjang pea,pea-catjang,541,Legume
+Squashberry,squash=berry,542,Fruit
+Atlantic croaker,#croaker-atlantic#,543,Fish
+Cusk,cusk,544,Fish
+Cuttlefish,cuttle=fish,545,Fish
+Mule deer,#mule deer#,546,Meat
+Devilfish,devil=fish,547,Fish
+Dock,dock,548,Herb
+Dolphin fish,dolphin,549,Fish
+Freshwater drum,drum,550,Fish
+Wild duck,duck,551,Meat
+Freshwater eel,eel,552,Fish
+Elk,#elk#,553,Meat
+Emu,emu,554,Meat
+Oregon yampah,oregon=yampah,555,Plant
+European anchovy,#anchovy-european#,556,Fish
+European chestnut,chestnut-european,557,Nuts & Seed
+Turbot,turbot,558,Fish
+Fireweed,fireweed,559,Herb
+Florida pompano,pompano,560,Fish
+Ginkgo nuts,nut-ginkgo,561,Nuts & Seed
+Greylag goose,goose,562,Meat
+Greenland halibut,#halibut-greenland#,563,Fish
+Groundcherry,groundcherry,564,Fruit
+Grouper,grouper,565,Fish
+Haddock,#haddock#,566,Fish
+Hippoglossus,hippoglossus,567,Fish
+Horse,horse,568,Meat
+Hyacinth bean,bean-hyacinth,569,Legume
+Irish moss,moss-irish,570,Seafood
+Pacific jack mackerel,#mackerel-pacific#,571,Fish
+Japanese chestnut,chestnut-japanese,572,Nuts & Seed
+Jerusalem artichoke,artichoke-jerusalen,573,Vegetable
+Jujube,jujube,574,Fruit
+Jute,jute,575,Plant
+Kale,kale,576,Vegetable
+King mackerel,#mackerel-king#,577,Fish
+Lambsquarters,lambsquarters,578,Plant
+Leather chiton,chiton,579,Seafood
+Common ling,ling,580,Fish
+Lingcod,lingcod,581,Fish
+White lupine,lupine-white,582,Plant
+Malabar spinach,spinach-malabar,583,Vegetable
+Mammee apple,apple-mammee,584,Fruit
+Purple mangosteen,mangosteen,585,Fruit
+Alpine sweetvetch,sweetvetch,586,Plant
+Milkfish,milk=fish,587,Fish
+Monkfish,monk=fish,588,Fish
+Moose,moose,589,Meat
+Moth bean,bean-moth,590,Legume
+Mountain yam,yam-mountain,591,Vegetable
+Striped mullet,mullet,592,Fish
+Muskrat,muskrat,593,Meat
+New Zealand spinach,spinach-new=zealand,594,Vegetable
+Nopal,nopal,595,Plant
+Ocean pout,#pout-ocean#,596,Fish
+North Pacific giant octopus,#octopus-pacific#,597,Seafood
+Ohelo berry,berry-ohelo,598,Fruit
+Opossum,opossum,600,Meat
+Ostrich,ostrich,601,Meat
+Spotted seal,#seal-spotted#,602,Seafood
+Pacific herring,#herring-pacific#,603,Fish
+Pacific rockfish,rockfish,604,Fish
+Common persimmon,#persimmon-common#,606,Fruit
+Pheasant,pheasant,607,Meat
+Northern pike,pike-northern,608,Fish
+Pili nut,nut-pili,609,Nuts & Seed
+Colorado pinyon,pinyon,610,Plant
+Pitanga,pitanga,611,Fruit
+French plantain,plantain-french,612,Plant
+American pokeweed,pokeweed-american,613,Herb
+Polar bear,#bear-polar#,614,Meat
+Prairie turnip,turnip-prairie,615,Vegetable
+Quinoa,quinoa,616,Cereal
+European rabbit,#rabbit-european#,617,Meat
+Raccoon,raccoon,618,Meat
+Rainbow smelt,#smelt-rainbow#,619,Fish
+Rainbow trout,#trout-rainbow#,620,Fish
+Malabar plum,plum-malabar,621,Fruit
+Rose hip,Rose-hip,622,Fruit
+Roselle,roselle,623,Herb
+Orange roughy,orange-roughy,624,Fish
+Sablefish,sable=fish,625,Fish
+Pink salmon,#salmon-pink#,626,Fish
+Chum salmon,#salmon-chum#,627,Fish
+Coho salmon,#salmon-coho#,628,Fish
+Sockeye salmon,#salmon-sockeye#,629,Fish
+Chinook salmon,#salmon-chinook#,630,Fish
+Atlantic salmon,#salmon-atlantic#,631,Fish
+Salmonberry,salmon=berry,632,Fruit
+Common salsify,salsify,633,Plant
+Spanish mackerel,#mackerel-spanish#,634,Fish
+Pacific sardine,sardine,635,Fish
+Scup,scup,636,Fish
+Sea cucumber,cucumber-sea,637,Seafood
+Steller sea lion,sea=lion,638,Seafood
+Bearded seal,#seal-bearded#,639,Seafood
+Ringed seal,#seal-ringed#,640,Seafood
+Sea trout,#trout-sea#,641,Fish
+Sesbania flower,sesbania-flower,642,Flower
+American shad,shad,643,Fish
+Shark,shark,644,Fish
+Sheefish,sheefish,645,Fish
+Sheepshead,sheepshead,646,Fish
+Hedge mustard,mustard-hedge,647,Vegetable
+Snapper,snapper,648,Fish
+Spelt,spelt,649,Cereal
+Spirulina,spirulina,650,Additive
+Squab,squab,651,Meat
+Squirrel,squirrel,652,Meat
+Greater sturgeon,#sturgeon-greater#,653,Fish
+White sucker,sucker-white,654,Fish
+Pumpkinseed sunfish,sunfish,655,Fish
+Swordfish,swordfish,656,Fish
+Taro,taro,657,Vegetable
+Teff,teff,658,Herb
+Tilefish,tile=fish,659,Fish
+Mexican groundcherry,groundcherry-mexican,660,Fruit
+Towel gourd,gourd-towel,661,Vegetable
+Salmonidae,#salmonidae#,662,Fish
+Walleye,walleye,663,Fish
+Alaska pollock,#pollock-alaska#,664,Fish
+Whelk,whelk,665,Seafood
+Broad whitefish,#whitefish-broad#,667,Fish
+Whitefish,#whitefish#,668,Fish
+Whiting,#whiting#,669,Fish
+Wild rice,rice-wild,670,Cereal
+Tea leaf willow,tea=leaf-willow,671,Herb
+Winged bean,bean-winged,672,Legume
+Yam,yam,673,Vegetable
+Jicama,jicama,674,Vegetable
+Yautia,yautia,675,Plant
+Yellowfin tuna,#tuna-yellowfin#,676,Fish
+Yellowtail amberjack,amberjack,677,Fish
+Pollock,#pollock#,678,Fish
+Albacore tuna,#tuna-albacore#,679,Fish
+Atlantic halibut,#halibut-atlantic#,680,Fish
+Smelt,#smelt#,682,Fish
+Clupeinae,clupeinae,683,Fish
+Spiny lobster,#lobster-spiny#,684,Seafood
+Black-eyed pea,pea-black=eyed,685,Legume
+Deer,#deer#,686,Meat
+Percoidei,percoidei,687,Fish
+Perciformes,perciformes,688,Fish
+Rabbit,#rabbit#,690,Meat
+Beefalo,beefalo,691,Meat
+Bivalvia,bivalvia,693,Seafood
+Flatfish,flatfish,694,Fish
+Walrus,walrus,695,Seafood
+Alaska wild rhubarb,rhubarb-alaska,696,Plant
+Oriental wheat,wheat-oriental,697,Cereal
+Yardlong bean,bean-yardlong,698,Legume
+Great horned owl,owl,699,Meat
+Quail,quail,700,Meat
+Boysenberry,boysenberry,701,Fruit
+Rowal,rowal,702,Plant
+Jew's ear,ear-jew’s,703,Fungus
+Shiitake,shiitake,704,Fungus
+Purple laver,laver,705,Seafood
+Wakame,wakame,706,Seafood
+Enokitake,enokitake,707,Fungus
+Epazote,epazote,708,Herb
+Oyster mushroom,mushroom-oyster,709,Fungus
+Cloud ear fungus,ear-cloud,710,Fungus
+Maitake,maitake,711,Fungus
+Ostrich fern,ostrich-fern,712,Plant
+Spot croaker,#croaker-spot#,713,Fish
+Sourdock,sourdock,714,Herb
+Tinda,tinda,715,Vegetable
+Atlantic menhaden,menhaden,716,Fish
+Agave,agave,717,Plant
+Narrowleaf cattail,cattail,718,Herb
+Jellyfish,jellyfish,719,Seafood
+Anchovy,#anchovy#,720,Fish
+Blue whiting,#whiting-blue#,721,Fish
+Carp bream,bream,722,Fish
+Chanterelle,chanterelle,723,Fungus
+Sturgeon,#sturgeon#,724,Fish
+Charr,charr,725,Fish
+Common dab,dab,726,Fish
+Spiny dogfish,dogfish,727,Fish
+Anatidae,anatidae,728,Meat
+Anguilliformes,anguilliformes,729,Fish
+True frog,frog,730,Meat
+Garfish,garfish,731,Fish
+Gadiformes,gadiformes,732,Fish
+Mountain hare,hare,733,Meat
+Lake trout,#trout-lake#,734,Fish
+Lemon sole,lemon-sole,735,Fish
+Lumpsucker,lumpsucker,736,Fish
+Scombridae,scombridae,737,Fish
+Norway haddock,#haddock-norway#,738,Fish
+Norway pout,#pout-norway#,739,Fish
+Oil palm,palm-oil,740,Plant
+Sago palm,palm-sago,741,Plant
+Persimmon,#persimmon#,742,Fruit
+Pikeperch,#perch-pike#,743,Fish
+Pleuronectidae,pleuronectidae,744,Fish
+Rock ptarmigan,ptarmigan,745,Meat
+Pacific ocean perch,#perch-pacific#,746,Fish
+Black salsify,salsify-black,747,Plant
+True seal,#seal#,748,Seafood
+Red algae,algae-red,749,Seafood
+Kombu,kombu,750,Seafood
+Snail,snail,751,Meat
+True sole,sole,752,Fish
+Catfish,#catfish#,753,Fish
+Thistle,thistle,754,Plant
+Common Tuna,#tuna#,755,Fish
+Cetacea,cetacea,756,Fish
+Columbidae,columbidae,757,Meat
+Conch,conch,758,Fish
+Berry wine,berry-wine,759,Beverage Alcoholic
+Vodka,vodka,762,Beverage Alcoholic
+Ice cream,ice cream,763,Dish
+Vermouth,vermouth,764,Beverage Alcoholic
+Madeira wine,madeira,765,Beverage Alcoholic
+Nougat,nougat,766,Dish
+Toffee,toffee,767,Dish
+Cake,cake,768,Dish
+Pizza,pizza,769,Dish
+Ymer,ymer,770,Dairy
+Pastry,pastry,772,Dish
+Drag̩e,drag̩e,773,Dish
+Chewing gum,chewing gum,774,Dish
+Marzipan,marzipan,775,Dish
+Salad dressing,salad dressing,776,Dish
+Salt,salt,778,Additive
+Cream,cream,780,Dairy
+Sugar,sugar,781,Additive
+Sausage,sausage,782,Dish
+Meatball,meatball,783,Dish
+Pate,pate,784,Dish
+Meat bouillon,bouillon,786,Dish
+Whey,whey,788,Dairy
+Casein,casein,789,Additive
+Leavening agent,leavening agent,791,Additive
+Marshmallow,marshmallow,792,Bakery
+Gelatin,gelatin,793,Additive
+Water,water; ice,794,Additive
+Milk Human,human milk,796,Dairy
+Dumpling,dumpling,799,Dish
+Soup,soup,800,Dish
+Syrup,syrup,803,Additive
+Remoulade,remoulade,805,Dish
+Chocolate spread,chocolate spread,806,Plant
+Fruit gum,fruit gum,807,Dish
+Meringue,meringue,810,Bakery
+Cocoa butter,cocoa butter,814,Plant
+Cocoa powder,cocoa-powder,815,Plant
+Chocolate,chocolate,817,Plant
+Hot chocolate,chocolate-hot; chocolate-heated,818,Beverage
+Kefir,kefir,820,Dairy
+Miso,miso,822,Additive
+Tofu,tofu,823,Plant
+Zwieback,zwieback,824,Dish
+Roe,roe,825,Fish
+Cichlidae,cichlidae,826,Fish
+Icing,icing,827,Additive
+Snack bar,snack bar,828,Dish
+Green turtle,turtle,829,Meat
+Burrito,burrito,831,Dish
+Hamburger,hamburger,832,Dish
+Taco,taco,834,Dish
+Tortilla,tortilla,835,Dish
+Nachos,nachos,836,Dish
+Salad,salad,837,Dish
+Dulce de leche,dulce de leche,839,Dairy
+Topping,topping,840,Additive
+Sweet custard,custard,841,Dairy
+Egg roll,egg roll,842,Dish
+Heart of palm,heart of palm,843,Vegetable
+Potato chip,potato-chip,845,Bakery
+Tortilla chip,tortilla-chip,846,Bakery
+Corn chip,corn-chip,847,Bakery
+Hibiscus tea,#tea-hibiscus#,848,Beverage
+Stew,stew,849,Dish
+Gelatin dessert,gelatin,850,Additive
+Junket,junket,851,Dairy
+Falafel,falafel,852,Dish
+Frybread,#fry=bread#,853,Dish
+Lasagna,lasagna,855,Dish
+Morchella,morchella,856,Fungus
+Pancake,pancake,857,Dish
+Pectin,pectin,858,Additive
+Pudding,pudding,859,Dish
+Waffle,waffle,860,Dish
+Soy milk,soy=milk; soya=milk,861,Beverage
+Meatloaf,meat=loaf,862,Dish
+Cocktail,cocktail,863,Beverage
+Couscous,couscous,864,Dish
+Bulgur,bulgur,865,Cereal
+Coffee mocha,mocha,867,Beverage
+Chimichanga,chimichanga,868,Dish
+Semolina,semolina; sooji,869,Cereal
+Tapioca pearl,tapioca,870,Vegetable
+Tostada,tostada,871,Dish
+Quesadilla,quesadilla,872,Dish
+Baked potato,potato-baked,873,Dish
+Hot dog,hot=dog,874,Dish
+Spread,spread,875,Additive
+Enchilada,enchilada,876,Dish
+Ketchup,#ketchup#,880,Additive
+Adobo,#adobo#,882,Dish
+Horned melon,melon-horned,884,Fruit
+Hushpuppy,hushpuppy,885,Dish
+Fruit juice,fruit juice,886,Beverage
+Relish,relish,887,Dish
+Fruit salad,fruit salad,889,Dish
+Soy yogurt,soy yogurt; soya yogurt,890,Plant
+Cold cut,cold cut,893,Dish
+Mixed nuts,mixed nut,894,Nuts & Seed
+Babassu palm,palm-babassu,895,Plant
+Shea tree,shea,897,Plant
+Oil-seed Camellia,camellia,898,Plant
+Ucuhuba,ucuhuba,899,Plant
+Phyllo dough,#phyllo#,900,Bakery
+Cooking oil,#cooking oil#,901,Additive
+Pie crust,#pie=crust#,902,Bakery
+Pie,pie,904,Dish
+Shortening,shortening,905,Additive
+Soy cream,#soy cream#,906,Dish
+Ice cream cone,ice cream cone,907,Dish
+Molasses,molasses; treacle,908,Additive
+Nance,nance,909,Fruit
+Natto,natto,911,Dish
+Ravioli,ravioli,912,Dish
+Scrapple,scrapple,913,Dish
+Succotash,succotash,915,Dish
+Tamale,tamale,916,Dish
+Rice cake,#rice-cake#,917,Dish
+Tree fern,fern-tree,918,Plant
+Evaporated milk,milk-evaporated,919,Dairy
+Flour,#flour#,920,Cereal
+Akutaq,akutaq,921,Dish
+Pita bread,#bread-pita#,923,Bakery
+Focaccia,focaccia,924,Bakery
+Bagel,bagel,925,Bakery
+Piki bread,bread-piki,927,Bakery
+French toast,french toast,928,Bakery
+Oat bread,#bread-oat#,929,Bakery
+Potato bread,potato-bread,930,Bakery
+Cornbread,#corn=bread#,931,Maize
+Corn grits,corn-grit,932,Maize
+Multigrain bread,#bread-multigrain#,933,Bakery
+Rice bread,bread-rice,934,Bakery
+Pan dulce,pan dulce,935,Bakery
+Raisin bread,#bread-raisin#,936,Bakery
+Wonton wrapper,wonton wrapper,937,Bakery
+Trail mix,trail mix,938,Dish
+Greenthread tea,tea-greenthread,939,Beverage
+Vegetable juice,vegetable juice,941,Beverage
+Horchata,horchata,942,Beverage
+Soft drink,soft drink,943,Beverage
+Milkshake,milkshake,944,Beverage
+Chocolate mousse,chocolate-mousse,945,Bakery
+Pupusa,pupusa,947,Dish
+Empanada,empanada,948,Dish
+Arepa,arepa,949,Dish
+Ascidians,ascidians,950,Seafood
+Gefilte fish,gefilte,951,Dish
+Yellow pond lily,yellow=pond lily,952,Plant
+Fish burger,fish burger,953,Dish
+Pot pie,pot=pie,955,Dish
+Stuffing,stuffing,956,Additive
+Fudge,fudge,958,Bakery
+Candy bar,candy bar,959,Bakery
+Condensed milk,milk-condensed,960,Dairy
+Margarine,margarine,961,Additive
+Hummus,hummus,963,Dish
+Potato puffs,potato-puff,964,Dish
+Potato gratin,potato-gratin,965,Dish
+Chinese bayberry,bayberry-chinese,967,Fruit
+Green zucchini,zucchini-green,968,Vegetable
+Zucchini,zucchini,969,Vegetable
+Saskatoon berry,berry-saskatoon,970,Fruit
+Nanking cherry,cherry-nanking,971,Fruit
+Japanese pumpkin,pumpkin-japanese,972,Fruit
+Guinea hen,guinea-hen,977,Meat
+Cucurbita,cucurbita,978,Vegetable
+Anise Oil,#anise-oil#,979,Fruit
+Apple Juice,apple-juice,980,Fruit
+Coconut Milk,coconut-milk,981,Beverage
+Coconut Oil,coconut-oil,982,Fruit
+Hops Beer,beer-hops,983,Beverage Alcoholic
+Lemon Juice,lemon juice,984,Beverage
+Brown Rice,rice-brown,985,Cereal
+Tomato Juice,#tomato-juice#,986,Beverage
+Tomato Paste,#tomato-paste#,987,Vegetable
+Tomato Puree,#tomato-puree#,988,Vegetable
+Coriander Seed,coriander-seed,989,Vegetable
+Lard,pork-fat; lard,990,Meat
+Cured Ham,#ham-cured#,991,Meat
+Cayenne,cayenne; chile powder; red chile; habanero; harissa; green chile; green chili; green chilli; green chily; red chily; red chili; red chilli,992,Spice
+Yeast,yeast,993,Fungus
+Tequila,tequila,994,Beverage Alcoholic
+Sauerkraut,sauerkraut,995,Vegetable
+Baking Powder,baking powder; baking soda,996,Additive
+Monosodium Glutamate,monosodium glutamate,997,Additive
+Citric Acid,citric acid,998,Additive
+Cooking Spray,cooking spray,999,Additive
+Gelatin,gelatin,1000,Additive
+Food Coloring,food coloring,1001,Additive
+Liquid Smoke,liquid smoke,1002,Additive
