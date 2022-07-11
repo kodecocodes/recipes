@@ -1,0 +1,28 @@
+{
+  "name": "back-recipes",
+  "version": "1.0.0",
+  "description": "Backend recipes Node.js + Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsaecas/recipes.git#master"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "@alsaecas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsaecas/recipes/issues"
+  },
+  "homepage": "https://github.com/alsaecas/recipes/tree/master#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
