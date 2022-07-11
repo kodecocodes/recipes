@@ -7,9 +7,15 @@ export class IngredientsController extends AppController {
     super(model);
   }
   async getIngredients() {
-    let response = "";
+    let response = [];
     LogSuccess(" [/api/ingredients] Get Request");
-    response = await Normalize();
-    return response;
+    let recipes = await Normalize();
+    recipes.forEach((element) => {
+      element.ingredients.forEach((ingredient) => {
+        response.push(ingredient.name);
+      });
+    });
+    response = new Set(response);
+    return [...response];
   }
 }
