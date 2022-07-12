@@ -13,7 +13,7 @@ recipesRouter
     let page = req.query.page || 1;
     let limit = req.query.limit || 3;
     let id = req.query.id;
-    let ingredients = req.query.ingredients;
+    let ingredients = req.query.ingredients.split(",");
     let time = req.query.time;
     // Send to the client the response
     const controller = new RecipesController();

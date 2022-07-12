@@ -17,11 +17,39 @@ export class RecipesController extends AppController {
       response.data = recipes[id - 1];
       return response;
     }
+    let filteredRecipes = [...recipes];
 
-    // Get all the recipies with pagination
-    response.totalPages = Math.ceil(recipes.length / limit);
+    recipes.forEach((element) => {
+      let totalTime = 0;
+      let ingredientNames = [];
+      // Extract ingredients names of every recipe
+      element.ingredients.forEach((ingredient) => {
+        ingredientNames.push(ingredient.name);
+      });
+      // Extract total time of every recipe
+      totalTime = element.timers.reduce((acc, curr) => acc + curr);
+
+      // Remove elements with NOK total time
+      if (time > 0 && time > totalTime) {
+        filteredRecipes.splice(filteredRecipes.indexOf(element), 1);
+        return;
+      }
+
+      // Remove elements without selected ingredients
+      if (ingredients[0].length > 0) {
+        for (let ingredient of ingredients) {
+          if (!ingredientNames.includes(ingredient)) {
+            filteredRecipes.splice(filteredRecipes.indexOf(element), 1);
+            break;
+          }
+        }
+      }
+    });
+
+    // Get the filtered recipies with pagination
+    response.totalPages = Math.ceil(filteredRecipes.length / limit);
     response.currentPage = page;
-    response.data = recipes.slice(
+    response.data = filteredRecipes.slice(
       (page - 1) * limit,
       (page - 1) * limit + Number(limit)
     );
