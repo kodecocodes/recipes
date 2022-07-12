@@ -12,10 +12,19 @@ recipesRouter
     //Obtain Query params
     let page = req.query.page || 1;
     let limit = req.query.limit || 3;
+    let id = req.query.id;
+    let ingredients = req.query.ingredients;
+    let time = req.query.time;
     // Send to the client the response
     const controller = new RecipesController();
     // Obtain Response
-    const response = await controller.getRecipes(page, limit);
+    const response = await controller.getRecipes(
+      page,
+      limit,
+      id,
+      ingredients,
+      time
+    );
     // Send to the client the response
     return res.send(response);
   });
