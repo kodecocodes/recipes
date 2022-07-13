@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Button, Box, Text } from "@chakra-ui/react";
+import { Image, Box, Text, Link } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { getAllRecipes } from "../services/recipeService";
 import Card from "../components/Card";
 
@@ -28,13 +29,32 @@ export const HomePage = () => {
   }, []);
 
   return hasLoaded ? (
-    <Card mb={{ base: "0px", lg: "20px" }} align="center">
+    <Box>
       {recipes.map((recipe, key) => (
-        <Text key={key} color="blue" fontSize="xl" fontWeight="1000">
-          {recipe.name}
-        </Text>
+        <Card key={key} mb={{ base: "0px", lg: "20px" }} align="center">
+          <Text color="blue" fontSize="xl" fontWeight="1000">
+            {recipe.name}
+          </Text>
+          <Image
+            alignSelf="center"
+            boxSize="150px"
+            objectFit="cover"
+            src={recipe.imageURL}
+          />
+          {recipe.ingredients.map((ingredient, key) => (
+            <Text key={key} color="blue" fontSize="sm" fontWeight="1000">
+              {ingredient.name}
+            </Text>
+          ))}
+          <Text key={key} color="blue" fontSize="sm" fontWeight="1000">
+            {recipe.timers.reduce((acc, curr) => acc + curr)}
+          </Text>
+          <Link href={recipe.originalURL} isExternal>
+            Source URL <ExternalLinkIcon mx="2px" />
+          </Link>
+        </Card>
       ))}
-    </Card>
+    </Box>
   ) : (
     <Text color="blue" fontSize="xl" fontWeight="1000"></Text>
   );
