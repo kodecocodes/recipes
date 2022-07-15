@@ -36,8 +36,8 @@ export class RecipesController extends AppController {
       }
 
       // Remove elements without selected ingredients
-      if (ingredients[0].length > 0) {
-        for (let ingredient of ingredients) {
+      if (ingredients) {
+        for (let ingredient of ingredients.split(",")) {
           if (!ingredientNames.includes(ingredient)) {
             filteredRecipes.splice(filteredRecipes.indexOf(element), 1);
             break;
