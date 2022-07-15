@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Image, Box, Text, Link } from "@chakra-ui/react";
+import { Image, SimpleGrid, Text, Link } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { getAllRecipes } from "../services/recipeService";
 import Card from "../components/Card";
+import RecipeCard from "../components/RecipeCard";
 
 export const HomePage = () => {
   // State of the component
@@ -10,7 +11,7 @@ export const HomePage = () => {
   const [hasLoaded, setHasLoaded] = useState();
 
   useEffect(() => {
-    getAllRecipes(3, 1, "")
+    getAllRecipes(3, 3, "")
       .then((response) => {
         if (
           response.status === 200 &&
@@ -29,32 +30,21 @@ export const HomePage = () => {
   }, []);
 
   return hasLoaded ? (
-    <Box>
+    <SimpleGrid columns={{ base: 1, md: 5 }} gap="20px">
+      <Text></Text>
       {recipes.map((recipe, key) => (
-        <Card key={key} mb={{ base: "0px", lg: "20px" }} align="center">
-          <Text color="blue" fontSize="xl" fontWeight="1000">
-            {recipe.name}
-          </Text>
-          <Image
-            alignSelf="center"
-            boxSize="150px"
-            objectFit="cover"
-            src={recipe.imageURL}
-          />
-          {recipe.ingredients.map((ingredient, key) => (
-            <Text key={key} color="blue" fontSize="sm" fontWeight="1000">
-              {ingredient.name}
-            </Text>
-          ))}
-          <Text key={key} color="blue" fontSize="sm" fontWeight="1000">
-            {recipe.timers.reduce((acc, curr) => acc + curr)}
-          </Text>
-          <Link href={recipe.originalURL} isExternal>
-            Source URL <ExternalLinkIcon mx="2px" />
-          </Link>
-        </Card>
+        <RecipeCard
+          image={recipe.imageURL}
+          name={recipe.name}
+          ingredients={recipe.ingredients}
+          sourceURL={recipe.originalURL}
+          time={recipe.timers.reduce((acc, curr) => acc + curr)}
+          key={key}
+          mb={{ base: "0px", lg: "20px" }}
+          align="center"
+        ></RecipeCard>
       ))}
-    </Box>
+    </SimpleGrid>
   ) : (
     <Text color="blue" fontSize="xl" fontWeight="1000"></Text>
   );
