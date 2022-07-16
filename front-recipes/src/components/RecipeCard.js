@@ -27,7 +27,7 @@ export default function RecipeCard(props) {
           <Image
             src={image}
             w={{ base: "100%", "3xl": "100%" }}
-            h="250px"
+            h={{ base: "100%", "3xl": "100%" }}
             borderRadius="20px"
             onError={(e) => {
               e.target.onerror = null;
