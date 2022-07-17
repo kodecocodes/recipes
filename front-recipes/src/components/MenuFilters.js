@@ -2,6 +2,7 @@ import React from "react";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 import TimeSlider from "./TimeSlider";
+import { Text } from "@chakra-ui/react";
 
 const animatedComponents = makeAnimated();
 export default function MenuFilter(props) {
@@ -22,6 +23,7 @@ export default function MenuFilter(props) {
 
   return (
     <>
+      <Text>Choose an Ingredient Type</Text>
       <Select
         isMulti
         options={props.loadValuesT}
@@ -29,6 +31,7 @@ export default function MenuFilter(props) {
         placeholder="Ingredient Types"
         onChange={handleChangeTypes}
       />
+      <Text>Choose an Ingredient</Text>
       <Select
         isMulti
         options={props.loadValuesI}
@@ -36,6 +39,7 @@ export default function MenuFilter(props) {
         placeholder="Ingredients"
         onChange={handleChangeIngredients}
       />
+      <Text>Time Limit</Text>
       <TimeSlider onChange={handleChangeTime} />
     </>
   );

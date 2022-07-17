@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { SimpleGrid, Text, Box, Flex, Stack } from "@chakra-ui/react";
+import {
+  SimpleGrid,
+  Text,
+  Box,
+  Flex,
+  Stack,
+  IconButton,
+  useBreakpointValue,
+} from "@chakra-ui/react";
+import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import { getAllRecipes } from "../services/recipeService";
 import RecipeCard from "../components/RecipeCard";
 import MenuFilters from "../components/MenuFilters";
@@ -7,6 +16,8 @@ import { getAllTypes } from "../services/typesService";
 import { getAllIngredients } from "../services/ingredientsService";
 
 export const HomePage = () => {
+  const top = useBreakpointValue({ base: "90%", md: "110%" });
+  const side = useBreakpointValue({ base: "30%", md: "300px" });
   // State of the component
   const [recipes, setRecipes] = useState();
   const [hasLoaded, setHasLoaded] = useState();
@@ -15,6 +26,11 @@ export const HomePage = () => {
   const [types, setTypes] = useState("");
   const [ingredients, setIngredients] = useState("");
   const [time, setTime] = useState();
+  const [page, setPage] = useState(1);
+  const [disLeft, setDisLeft] = useState(false);
+  const [disRight, setDisRight] = useState(false);
+
+  //Handle changes on the filters
   function handleChange(newValue) {
     if (newValue.element === "type") {
       let extract = "";
@@ -32,12 +48,12 @@ export const HomePage = () => {
     }
     if (newValue.element === "time") {
       setTime(newValue.value);
-      console.log(newValue.value);
       return;
     }
   }
-
+  //Handle changes on variables to reaload the requests to API
   useEffect(() => {
+    console.log(page);
     getAllTypes()
       .then((response) => {
         if (response.status === 200 && response.data) {
@@ -66,10 +82,15 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL TYPES ERROR]: ${error}`));
-    getAllRecipes(3, 1, ingredients, time)
+    getAllRecipes(3, page, ingredients, time)
       .then((response) => {
         if (response.status === 200 && response.data.data) {
           let { totalPages, currentPage, data } = response.data;
+          if (currentPage <= 1) {
+            setDisLeft(true);
+          }
+          setPage(currentPage);
+          console.log(currentPage);
           setRecipes(data);
           setHasLoaded(true);
         } else {
@@ -77,7 +98,7 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL RECIPES ERROR]: ${error}`));
-  }, [types, ingredients, time]);
+  }, [types, ingredients, time, page]);
 
   return hasLoaded ? (
     <Box>
@@ -118,6 +139,32 @@ export const HomePage = () => {
             align="center"
           ></RecipeCard>
         ))}
+        <IconButton
+          aria-label="left-arrow"
+          variant="ghost"
+          position="absolute"
+          left={side}
+          top={top}
+          transform={"translate(0%, -50%)"}
+          zIndex={2}
+          onClick={() => setPage(page - 1)}
+          disabled={disLeft}
+        >
+          <BiLeftArrowAlt size="40px" />
+        </IconButton>
+        <IconButton
+          aria-label="right-arrow"
+          variant="ghost"
+          position="absolute"
+          right={side}
+          top={top}
+          transform={"translate(0%, -50%)"}
+          zIndex={2}
+          onClick={() => setPage(page + 1)}
+          disabled={disRight}
+        >
+          <BiRightArrowAlt size="40px" />
+        </IconButton>
       </SimpleGrid>
     </Box>
   ) : (
