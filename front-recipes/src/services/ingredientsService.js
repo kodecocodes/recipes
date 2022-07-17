@@ -6,6 +6,5 @@ export const getAllIngredients = (types) => {
       types: types,
     },
   };
-  console.log(types);
   return axios.get("/ingredients", options);
 };

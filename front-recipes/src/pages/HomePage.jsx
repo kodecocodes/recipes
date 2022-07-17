@@ -14,6 +14,7 @@ export const HomePage = () => {
   const [loadIngredients, setLoadIngredients] = useState([]);
   const [types, setTypes] = useState("");
   const [ingredients, setIngredients] = useState("");
+  const [time, setTime] = useState();
   function handleChange(newValue) {
     if (newValue.element === "type") {
       let extract = "";
@@ -27,6 +28,11 @@ export const HomePage = () => {
         (ingredient) => (extract = extract + "," + ingredient.label)
       );
       setIngredients(extract.slice(1));
+      return;
+    }
+    if (newValue.element === "time") {
+      setTime(newValue.value);
+      console.log(newValue.value);
       return;
     }
   }
@@ -60,7 +66,7 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL TYPES ERROR]: ${error}`));
-    getAllRecipes(3, 1, ingredients)
+    getAllRecipes(3, 1, ingredients, time)
       .then((response) => {
         if (response.status === 200 && response.data.data) {
           let { totalPages, currentPage, data } = response.data;
@@ -71,7 +77,7 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL RECIPES ERROR]: ${error}`));
-  }, [types, ingredients]);
+  }, [types, ingredients, time]);
 
   return hasLoaded ? (
     <Box>
