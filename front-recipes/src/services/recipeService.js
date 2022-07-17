@@ -8,5 +8,6 @@ export const getAllRecipes = (limit, page, ingredients) => {
       ingredients: ingredients,
     },
   };
+  console.log(ingredients);
   return axios.get("/recipes", options);
 };

@@ -46,7 +46,7 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL TYPES ERROR]: ${error}`));
-    getAllIngredients()
+    getAllIngredients(types)
       .then((response) => {
         if (response.status === 200 && response.data) {
           let opt = [];
@@ -62,12 +62,7 @@ export const HomePage = () => {
       .catch((error) => console.error(`[GET ALL TYPES ERROR]: ${error}`));
     getAllRecipes(3, 1, ingredients)
       .then((response) => {
-        if (
-          response.status === 200 &&
-          response.data.data &&
-          response.data.totalPages &&
-          response.data.currentPage
-        ) {
+        if (response.status === 200 && response.data.data) {
           let { totalPages, currentPage, data } = response.data;
           setRecipes(data);
           setHasLoaded(true);
@@ -76,7 +71,7 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL RECIPES ERROR]: ${error}`));
-  }, [ingredients]);
+  }, [types, ingredients]);
 
   return hasLoaded ? (
     <Box>
