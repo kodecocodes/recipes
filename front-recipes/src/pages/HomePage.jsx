@@ -53,7 +53,6 @@ export const HomePage = () => {
   }
   //Handle changes on variables to reaload the requests to API
   useEffect(() => {
-    console.log(page);
     getAllTypes()
       .then((response) => {
         if (response.status === 200 && response.data) {
@@ -86,11 +85,20 @@ export const HomePage = () => {
       .then((response) => {
         if (response.status === 200 && response.data.data) {
           let { totalPages, currentPage, data } = response.data;
+          if (currentPage < totalPages) {
+            setDisLeft(false);
+            setDisRight(false);
+          }
           if (currentPage <= 1) {
             setDisLeft(true);
           }
+          if (currentPage >= totalPages) {
+            setDisRight(true);
+          }
+          if (currentPage > totalPages) {
+            currentPage = 1;
+          }
           setPage(currentPage);
-          console.log(currentPage);
           setRecipes(data);
           setHasLoaded(true);
         } else {

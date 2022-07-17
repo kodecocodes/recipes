@@ -3,21 +3,20 @@ import {
   Box,
   Button,
   Flex,
-  Icon,
   Image,
   Link,
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { BiTimer } from "react-icons/bi";
 // Custom components
-import Card from "./Card.js";
+import Card from "./Card";
 // Assets
-import React, { useState } from "react";
+import React from "react";
 import DefaultImage from "../assets/img/defaultImage.png";
 
 export default function RecipeCard(props) {
   const { image, name, ingredients, sourceURL, time } = props;
-  const [like, setLike] = useState(false);
   const textColor = useColorModeValue("navy.700", "white");
   const textColorBid = useColorModeValue("brand.500", "white");
   return (
@@ -80,19 +79,20 @@ export default function RecipeCard(props) {
             </Flex>
           </Flex>
           <Flex
-            align="flex-end"
+            pos="relative"
             justify="space-between"
-            direction={{
-              base: "row",
-              md: "column",
-              lg: "row",
-              xl: "column",
-              "2xl": "row",
-            }}
+            direction="row"
             mt="25px"
+            verticalAlign="300px"
           >
-            <Text fontWeight="700" fontSize="sm" color={textColorBid}>
-              Total time: {time}
+            <Text
+              fontWeight="700"
+              fontSize="sm"
+              color={textColorBid}
+              flexDir="row"
+            >
+              <BiTimer />
+              {time}
             </Text>
             <Link
               href={sourceURL}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   Box,
   Slider,
@@ -14,12 +14,6 @@ function TimeSlider(props) {
     setSliderValue(value);
     props.onChange(value * 5);
   }
-
-  const labelStyles = {
-    mt: "2",
-    ml: "-2.5",
-    fontSize: "sm",
-  };
 
   return (
     <Box pt={6} pb={2}>
