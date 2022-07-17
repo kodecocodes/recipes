@@ -3,14 +3,64 @@ import { SimpleGrid, Text, Box, Flex, Stack } from "@chakra-ui/react";
 import { getAllRecipes } from "../services/recipeService";
 import RecipeCard from "../components/RecipeCard";
 import MenuFilters from "../components/MenuFilters";
+import { getAllTypes } from "../services/typesService";
+import { getAllIngredients } from "../services/ingredientsService";
 
 export const HomePage = () => {
   // State of the component
   const [recipes, setRecipes] = useState();
   const [hasLoaded, setHasLoaded] = useState();
+  const [loadTypes, setLoadTypes] = useState([]);
+  const [loadIngredients, setLoadIngredients] = useState([]);
+  const [types, setTypes] = useState("");
+  const [ingredients, setIngredients] = useState("");
+  function handleChange(newValue) {
+    if (newValue.element === "type") {
+      let extract = "";
+      newValue.map((type) => (extract = extract + "," + type.label));
+      setTypes(extract.slice(1));
+      return;
+    }
+    if (newValue.element === "ingredients") {
+      let extract = "";
+      newValue.map(
+        (ingredient) => (extract = extract + "," + ingredient.label)
+      );
+      setIngredients(extract.slice(1));
+      return;
+    }
+  }
 
   useEffect(() => {
-    getAllRecipes(3, 3, "")
+    getAllTypes()
+      .then((response) => {
+        if (response.status === 200 && response.data) {
+          let opt = [];
+          response.data.map((element, key) =>
+            opt.push({ value: key + 1, label: element })
+          );
+
+          setLoadTypes(opt);
+        } else {
+          throw new Error(`Error obtaining types: ${response.data}`);
+        }
+      })
+      .catch((error) => console.error(`[GET ALL TYPES ERROR]: ${error}`));
+    getAllIngredients()
+      .then((response) => {
+        if (response.status === 200 && response.data) {
+          let opt = [];
+          response.data.map((element, key) =>
+            opt.push({ value: key + 1, label: element })
+          );
+
+          setLoadIngredients(opt);
+        } else {
+          throw new Error(`Error obtaining types: ${response.data}`);
+        }
+      })
+      .catch((error) => console.error(`[GET ALL TYPES ERROR]: ${error}`));
+    getAllRecipes(3, 1, ingredients)
       .then((response) => {
         if (
           response.status === 200 &&
@@ -26,7 +76,7 @@ export const HomePage = () => {
         }
       })
       .catch((error) => console.error(`[GET ALL RECIPES ERROR]: ${error}`));
-  }, []);
+  }, [ingredients]);
 
   return hasLoaded ? (
     <Box>
@@ -45,12 +95,14 @@ export const HomePage = () => {
           <Text>RECIPES</Text>
         </Flex>
       </Flex>
-
-      <SimpleGrid columns={{ base: 1, md: 5 }} gap="20px">
+      <SimpleGrid columns={{ base: 1, md: 5 }} gap="20px" paddingTop="20px">
         <Flex display={{ base: "none", md: "flex" }} ml={10} paddingTop="20px">
           <Stack direction={"column"} spacing={4}>
-            <MenuFilters />
-            <MenuFilters />
+            <MenuFilters
+              onChange={handleChange}
+              loadValuesT={loadTypes}
+              loadValuesI={loadIngredients}
+            />
           </Stack>
         </Flex>
         {recipes.map((recipe, key) => (
