@@ -48,7 +48,7 @@ export class RecipesController extends AppController {
 
     // Get the filtered recipies with pagination
     response.totalPages = Math.ceil(filteredRecipes.length / limit);
-    response.currentPage = page;
+    response.currentPage = Number(page);
     response.data = filteredRecipes.slice(
       (page - 1) * limit,
       (page - 1) * limit + Number(limit)
