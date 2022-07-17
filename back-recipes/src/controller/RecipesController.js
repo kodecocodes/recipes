@@ -30,7 +30,7 @@ export class RecipesController extends AppController {
       totalTime = element.timers.reduce((acc, curr) => acc + curr);
 
       // Remove elements with NOK total time
-      if (time > 0 && time > totalTime) {
+      if (time < totalTime) {
         filteredRecipes.splice(filteredRecipes.indexOf(element), 1);
         return;
       }
