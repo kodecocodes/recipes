@@ -11,3 +11,11 @@ export const getAllRecipes = (limit, page, ingredients, time) => {
   };
   return axios.get("/recipes", options);
 };
+export const getRecipeByID = (id) => {
+  const options = {
+    params: {
+      id: id,
+    },
+  };
+  return axios.get("/recipes", options);
+};

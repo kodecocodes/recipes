@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import {
   SimpleGrid,
   Text,
@@ -137,12 +138,13 @@ export const HomePage = () => {
         </Flex>
         {recipes.map((recipe, key) => (
           <RecipeCard
+            key={key}
             image={recipe.imageURL}
             name={recipe.name}
             ingredients={recipe.ingredients}
             sourceURL={recipe.originalURL}
             time={recipe.timers.reduce((acc, curr) => acc + curr)}
-            key={key}
+            id={key + 1 + 3 * (page - 1)}
             mb={{ base: "0px", lg: "20px" }}
             align="center"
           ></RecipeCard>

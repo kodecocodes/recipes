@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 // Chakra imports
 import {
   Box,
@@ -16,17 +17,26 @@ import React from "react";
 import DefaultImage from "../assets/img/defaultImage.png";
 
 export default function RecipeCard(props) {
+  let navigate = useNavigate();
   const { image, name, ingredients, sourceURL, time } = props;
   const textColor = useColorModeValue("navy.700", "white");
   const textColorBid = useColorModeValue("brand.500", "white");
+  console.log(props);
   return (
-    <Card p="20px">
+    <Card
+      p="20px"
+      onClick={() => {
+        navigate(`/detail/${props.id}`);
+      }}
+    >
       <Flex direction={{ base: "column" }} justify="center">
         <Box mb={{ base: "20px", "2xl": "20px" }} position="relative">
           <Image
             src={image}
-            w={{ base: "100%", "3xl": "100%" }}
-            h={{ base: "100%", "3xl": "100%" }}
+            height="auto"
+            maxHeight="150px"
+            width="auto"
+            maxWidth="150px"
             borderRadius="20px"
             onError={(e) => {
               e.target.onerror = null;
@@ -68,7 +78,7 @@ export default function RecipeCard(props) {
                   key={index}
                   color="secondaryGray.600"
                   fontSize={{
-                    base: "sm",
+                    base: "xs",
                   }}
                   fontWeight="400"
                   me="14px"
@@ -78,32 +88,12 @@ export default function RecipeCard(props) {
               ))}
             </Flex>
           </Flex>
-          <Flex
-            pos="relative"
-            justify="space-between"
-            direction="row"
-            mt="25px"
-            verticalAlign="300px"
-          >
-            <Text
-              fontWeight="700"
-              fontSize="sm"
-              color={textColorBid}
-              flexDir="row"
-            >
+          <Flex justify="space-between" direction="row" mt="25px">
+            <Text fontWeight="700" fontSize="sm" color={textColorBid}>
               <BiTimer />
               {time}
             </Text>
-            <Link
-              href={sourceURL}
-              mt={{
-                base: "0px",
-                md: "10px",
-                lg: "0px",
-                xl: "10px",
-                "2xl": "0px",
-              }}
-            >
+            <Link href={sourceURL}>
               <Button
                 variant="darkBrand"
                 color="white"
