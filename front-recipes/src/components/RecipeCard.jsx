@@ -21,9 +21,12 @@ export default function RecipeCard(props) {
   const { image, name, ingredients, sourceURL, time } = props;
   const textColor = useColorModeValue("navy.700", "white");
   const textColorBid = useColorModeValue("brand.500", "white");
-  console.log(props);
   return (
     <Card
+      _hover={{
+        transform: "translateY(2px)",
+        boxShadow: "lg",
+      }}
       p="20px"
       onClick={() => {
         navigate(`/detail/${props.id}`);

@@ -21,7 +21,7 @@ export const HomePage = () => {
   const side = useBreakpointValue({ base: "30%", md: "300px" });
   // State of the component
   const [recipes, setRecipes] = useState();
-  const [hasLoaded, setHasLoaded] = useState();
+  const [hasLoaded, setHasLoaded] = useState(false);
   const [loadTypes, setLoadTypes] = useState([]);
   const [loadIngredients, setLoadIngredients] = useState([]);
   const [types, setTypes] = useState("");
