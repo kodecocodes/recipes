@@ -9,7 +9,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { BiTimer } from "react-icons/bi";
+
 // Custom components
 import Card from "./Card";
 // Assets
@@ -27,12 +27,16 @@ export default function RecipeCard(props) {
         transform: "translateY(2px)",
         boxShadow: "lg",
       }}
+      cursor="pointer"
       p="20px"
-      onClick={() => {
-        navigate(`/detail/${props.id}`);
-      }}
     >
-      <Flex direction={{ base: "column" }} justify="center">
+      <Flex
+        direction={{ base: "column" }}
+        justify="center"
+        onClick={() => {
+          navigate(`/detail/${props.id}`);
+        }}
+      >
         <Box mb={{ base: "20px", "2xl": "20px" }} position="relative">
           <Image
             src={image}
@@ -91,26 +95,37 @@ export default function RecipeCard(props) {
               ))}
             </Flex>
           </Flex>
-          <Flex justify="space-between" direction="row" mt="25px">
-            <Text fontWeight="700" fontSize="sm" color={textColorBid}>
-              <BiTimer />
-              {time}
-            </Text>
-            <Link href={sourceURL}>
-              <Button
-                variant="darkBrand"
-                color="white"
-                fontSize="sm"
-                fontWeight="500"
-                borderRadius="70px"
-                px="24px"
-                py="5px"
-              >
-                Source
-              </Button>
-            </Link>
-          </Flex>
         </Flex>
+      </Flex>
+      <Flex
+        justify="flex-end"
+        direction="row"
+        pos="absolute"
+        bottom="5"
+        right="5"
+      >
+        <Text
+          fontWeight="700"
+          fontSize="sm"
+          color={textColorBid}
+          paddingRight="20px"
+          paddingTop="8px"
+        >
+          {" ⏱️ " + time}
+        </Text>
+        <Link href={sourceURL}>
+          <Button
+            variant="darkBrand"
+            color="white"
+            fontSize="sm"
+            fontWeight="500"
+            borderRadius="70px"
+            px="24px"
+            py="5px"
+          >
+            Source
+          </Button>
+        </Link>
       </Flex>
     </Card>
   );

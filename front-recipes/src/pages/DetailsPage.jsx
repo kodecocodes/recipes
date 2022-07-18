@@ -4,24 +4,19 @@ import DefaultImage from "../assets/img/defaultImage.png";
 // Chakra imports
 import {
   Box,
-  chakra,
   Container,
   Stack,
   Text,
   Image,
   Flex,
-  VStack,
   Button,
   Heading,
   SimpleGrid,
   StackDivider,
-  useColorModeValue,
-  VisuallyHidden,
   List,
   ListItem,
+  Link,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { MdLocalShipping } from "react-icons/md";
 import { getRecipeByID } from "../services/recipeService";
 
 export const DetailsPage = (props) => {
@@ -43,7 +38,7 @@ export const DetailsPage = (props) => {
         }
       })
       .catch((error) => console.error(`[GET ALL RECIPES ERROR]: ${error}`));
-  }, []);
+  }, [id]);
 
   return hasLoaded ? (
     <Container maxW={"7xl"}>
@@ -76,6 +71,15 @@ export const DetailsPage = (props) => {
             >
               {recipe.name}
             </Heading>
+            {recipe.originalURL ? (
+              <Link href={recipe.originalURL}>
+                <Text color="gray.900" fontWeight={300} fontSize={"2xl"}>
+                  🔗 Original URL
+                </Text>
+              </Link>
+            ) : (
+              <Text></Text>
+            )}
           </Box>
 
           <Stack
